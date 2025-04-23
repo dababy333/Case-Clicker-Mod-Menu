@@ -1,7 +1,6 @@
 // userdata.inv.push({"name":"Karambit | Gamma Doppler","stattrak":true,"t":"fn"})
 // userdata.money = userdata.money + 99999999
 
-var userdata = JSON.parse(localStorage[localStorage['uid'] + '-storage']);
 
 (() => {
     let n = document.createElement('iframe');
